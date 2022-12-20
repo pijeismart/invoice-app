@@ -34,7 +34,7 @@ export default function Avatar({ className }) {
                 }
             </AnimatePresence>
             <Button className={className} onClick={() => setAttributionIsOpen(true)}>
-                <Image src="/images/image-avatar.jpg" alt="avatar"/>
+                <Image src="/images/image-avatar.png" alt="avatar"/>
             </Button>
         </>
     )

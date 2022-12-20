@@ -124,18 +124,14 @@ export default function Attribution({ isOpen, setIsOpen }) {
             key="container"
         >
             <Wrapper>
-                <Avatar src="/images/image-attribution.jpg" alt="ApplePieGiraffe profile image"/>
-                <Heading>ApplePieGiraffe</Heading>
+                <Avatar src="/images/image-avatar.png" alt="pijeismart profile image"/>
+                <Heading>PijeiSmart</Heading>
                 <Link href="https://www.frontendmentor.io/solutions/invoice-app-react-nextjs-styledcomponents-formik-framer-motion-3y1EaxPtj" target="_blank">
                     <span>Visit solution page</span>
                     <img src="/images/icon-external-link.svg" alt=""/>
                 </Link>
-                <Link href="https://github.com/ApplePieGiraffe/invoice-app" target="_blank">
+                <Link href="https://github.com/smartpijei/invoice-app" target="_blank">
                     <span>Visit Git repo</span>
-                    <img src="/images/icon-external-link.svg" alt=""/>
-                </Link>
-                <Link href="https://www.frontendmentor.io/profile/ApplePieGiraffe" target="_blank">
-                    <span>Visit Frontend Mentor profile</span>
                     <img src="/images/icon-external-link.svg" alt=""/>
                 </Link>
             </Wrapper>
